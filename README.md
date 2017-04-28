@@ -28,7 +28,7 @@
   - Integer scale - pixels are exactly represented
   - Keeps aspect ratio
 - (-)
-  - Either hides some lines in the top/bottom overlay area or has to use a letterbox
+  - Either loses some lines in the top/bottom area or has to use a letterbox
   - Hard to setup
 
 
