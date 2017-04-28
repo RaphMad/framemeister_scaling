@@ -44,8 +44,8 @@
 
 > Reasoning:
 > - `V_WIDTH` and `H_WIDTH` are constant since they are used for cropping
-> - `ZOOM_SIZE` and `ZOOM_OVERSCAN` are variable, but used in both calculations, so they need to be set first and can be used to get vertical resolution to integer scale
-> - `ZOOM_WIDTH` then is the independent "knob" that allows to also get horizontal resolution to integer scale
+> - `ZOOM_SIZE` and `ZOOM_OVERSCAN` are variable, but used in both calculations, so Y res has to be set first
+> - `ZOOM_WIDTH` then is the independent "knob" that allows to also get an integer X res
 
 - Open questions:
   - Which values for `input-Y-res`/`input-X-res` for which PAL console?
