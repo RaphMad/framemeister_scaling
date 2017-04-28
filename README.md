@@ -34,12 +34,8 @@
    - modify `ZOOM_V_POS` to align vertically
 4. horizontal scaling:
    - use `H_WIDTH` and `ZOOM_H_POS` until picture is cropped correctly
-   - modify `ZOOM_WIDTH` until aspect ratio is restored
+   - modify `ZOOM_WIDTH` until aspect ratio is restored (measure manually)
 
-
-- Open questions:
-   - What's the difference between using `ZOOM_H_POS` vs. `H_POS` (also for `ZOOM_V_POS` vs. `V_POS`)?
-   - How to verify correct aspect ratio?
 
 # Integer scaling:
 
@@ -52,21 +48,11 @@
 
 
 1. Modify `VISUAL_SET` until picture is cropped correctly
-2. Modify `ZOOM_SET` until horizontal and vertical scales are integer
-   - Use `ZOOM_SIZE`, `ZOOM_OVERSCAN` and `ZOOM_V_POS` first to achieve vertical integer scaling
-   - Then use `ZOOM_WIDTH` to also achieve horizontal integer scaling (see reasoning below)
-
- ```
- target-Y-res = input-Y-res * ZOOM_SIZE * ZOOM_OVERSCAN * V_WIDTH
- target-X-res = input-X-res * ZOOM_SIZE * ZOOM_OVERSCAN * ZOOM_WIDTH * H_WIDTH
- ```
-
-
-> Reasoning:
-> - `V_WIDTH` and `H_WIDTH` are constant since they are used for console-individual cropping
-> - `ZOOM_SIZE` and `ZOOM_OVERSCAN` are variable, but used in both calculations, so Y res has to be set first
-> - `ZOOM_WIDTH` then is the independent "knob" that allows to also get an integer X res
-
-- Open questions:
-  - Which values for `input-Y-res`/`input-X-res` for which PAL console?
-  - How to verify? - Needs coefficients for the `ZOOM_SIZE`, `ZOOM_WIDTH`, ... values to actually calculate it
+2. Modify `ZOOM_SET` and/or `ZOOM_OVERSCAN` until vertical scale is integer
+   - Can use scanlines to verify this
+   - May need to go back and slightly modify `V_WIDTH` to get perfect results
+3. Align picture vertically using `ZOOM_V_POS`
+4. Modify `ZOOM_SIZE` until horizontal scale is integer
+   - No method to verify this
+   - Simply try to achieve the desired aspect ratio (measure manually)
+5. Align picture horizontally using `ZOOM_H_POS`
