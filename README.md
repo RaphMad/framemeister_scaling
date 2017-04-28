@@ -23,7 +23,6 @@
 
 - (+)
   - Uses as much screen space as possible
-  - Keeps aspect ratio
   - (Relatively) easy to setup
 - (-)
   - Non-integer scale - pixels are not exactly represented
@@ -43,7 +42,6 @@
 
 - (+)
   - Integer scale - pixels are exactly represented
-  - Keeps aspect ratio
 - (-)
   - Either loses some lines in the top/bottom area or has to use a letterbox
   - Hard to setup
