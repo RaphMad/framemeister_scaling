@@ -1,3 +1,22 @@
+# Settings that affect scaling:
+
+- `H_WIDTH`
+   - Defines the size of the horizontal part of the input signal that will be processed
+   - Can be used to crop the input signal (in combination with `H_POS`)
+- `V_WIDTH`
+   - Defines the size of the vertical part of the input signal that will be processed
+   - Can be used to crop the input signal (in combination with `V_POS`)
+- `ZOOM_SIZE`
+   - Zooms uniformely, keeps aspect ratio
+   - Does not affect the black bars to the left and right
+- `ZOOM_WIDTH`
+   - Zooms only in horizontal direction, modifies aspect ratio
+   - Changes the size of the black bars the left and right
+- `ZOOM_OVERSCAN`
+   - Shrinks the picture uniformely
+   - Affects the black bars to the left and right
+
+
 # Scaling to full height:
 
 - (+)
