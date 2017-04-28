@@ -12,6 +12,7 @@
 - `ZOOM_WIDTH`
    - Zooms only in horizontal direction, modifies aspect ratio
    - Changes the size of the black bars the left and right
+   - Since it scales only in one direction, it can be used to "restore" can be used to restore an aspect ratio that was manipulated by cropping the picture using `H_WIDTH` and/or `V_WIDTH`
 - `ZOOM_OVERSCAN`
    - Shrinks the picture uniformely
    - Affects the black bars to the left and right
