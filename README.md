@@ -39,8 +39,7 @@
  ```
 
 
-- Is exact integer even possible considering pixels need to be cropped?
-> Yes, reasoning:
+> Reasoning:
 > - `V_WIDTH` and `H_WIDTH` are constant since they are used for cropping
 > - `ZOOM_SIZE` and `ZOOM_OVERSCAN` are variable, but used in both calculations, so they need to be set first and can be used to get vertical resolution to integer scale
 > - `ZOOM_WIDTH` then is the independent "knob" that allows to also get horizontal resolution to integer scale
