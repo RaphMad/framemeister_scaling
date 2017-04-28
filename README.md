@@ -25,10 +25,10 @@
 # Integer scaling:
 
 - (+)
-  - Keeps aspect ratio
   - Integer scale - pixels are exactly represented
+  - Keeps aspect ratio
 - (-)
-  - Either hides some rows in the top/bottom overlay area or has to use a letterbox
+  - Either hides some lines in the top/bottom overlay area or has to use a letterbox
   - Hard to setup
 
 
