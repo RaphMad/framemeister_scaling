@@ -14,7 +14,7 @@
    - reduce `ZOOM_SIZE` until picture fills vertical space
    - modify `ZOOM_V_POS` to align vertically
 4. horizontal scaling:
-   - use `H_WIDTH` and `H_POS` until picture is cropped corretly
+   - use `H_WIDTH` and `H_POS` until picture is cropped correctly
    - modify `ZOOM_WIDTH` until aspect ratio is restored
 
 
