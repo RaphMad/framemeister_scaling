@@ -26,7 +26,7 @@
   - (Relatively) easy to setup
 - (-)
   - Non-integer scale - pixels are not exactly represented
-  - Scanlines look bad
+  - Scanlines look bad (at least on 1080p)
 
 
 1. `ZOOM ON`
