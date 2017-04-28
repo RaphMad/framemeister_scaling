@@ -15,7 +15,11 @@
    - modify `ZOOM_V_POS` to align vertically
 4. horizontal scaling:
    - use `H_WIDTH` and `H_POS` until picture is cropped corretly
-   - modify `ZOOM_WIDTH` until aspect ratio is restored (how to verify?)
+   - modify `ZOOM_WIDTH` until aspect ratio is restored
+
+
+- Open questions:
+   - How to verify correct aspect ratio?
 
 # Integer scaling:
 
