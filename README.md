@@ -11,11 +11,11 @@
 1. `ZOOM ON`
 2. set `ZOOM_SIZE` to `100%`
 3. vertical scaling:
-  * reduce `ZOOM_SIZE` until picture fills vertical space
-  * modify `ZOOM_V_POS` to align vertically
+   - reduce `ZOOM_SIZE` until picture fills vertical space
+   - modify `ZOOM_V_POS` to align vertically
 4. horizontal scaling:
-  * modify `ZOOM_WIDTH` until picture fills horizontal space
-  * modify `ZOOM_H_POS` to align horizontally
+   - modify `ZOOM_WIDTH` until picture fills horizontal space
+   - modify `ZOOM_H_POS` to align horizontally
 5. use `VISUAL` settings to mask or reveal horizontal pixels, should only need `ZOOM_WIDTH`, `H_WIDTH` and `ZOOM_H_POS`
 
 # Integer scaling:
