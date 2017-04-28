@@ -26,6 +26,7 @@
   - (Relatively) easy to setup
 - (-)
   - Non-integer scale - pixels are not exactly represented
+  - Scanlines look bad
 
 
 1. `ZOOM ON`
@@ -42,6 +43,7 @@
 
 - (+)
   - Integer scale - pixels are exactly represented
+  - Scanlines look good
 - (-)
   - Either loses some lines in the top/bottom area or has to use a letterbox
   - Hard to setup
