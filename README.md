@@ -16,7 +16,7 @@
 4. horizontal scaling:
  - modify `ZOOM_WIDTH` until picture fills horizontal space
  - modify `ZOOM_H_POS` to align horizontally
-7. use `VISUAL` settings to mask or reveal horizontal pixels, should only need `ZOOM_WIDTH`, `H_WIDTH` and `ZOOM_H_POS`
+5. use `VISUAL` settings to mask or reveal horizontal pixels, should only need `ZOOM_WIDTH`, `H_WIDTH` and `ZOOM_H_POS`
 
 # Integer scaling:
 
