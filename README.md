@@ -1,4 +1,4 @@
-# Scaling to full screen:
+# Scaling to full height:
 
 - (+)
   - Uses as much screen space as possible
