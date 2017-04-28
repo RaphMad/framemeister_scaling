@@ -34,8 +34,8 @@
  - Then use `ZOOM_WIDTH` to also achieve horizontal integer scaling (see reasoning below)
 
  ```
- target-Y-res = input-Y-res * ZOOM_SIZE * ZOOM_OVERSCAN (tocheck) * V_WIDTH
- target-X-res = input-X-res * ZOOM_SIZE * ZOOM_OVERSCAN (tocheck) * ZOOM_WIDTH * H_WIDTH
+ target-Y-res = input-Y-res * ZOOM_SIZE * ZOOM_OVERSCAN * V_WIDTH
+ target-X-res = input-X-res * ZOOM_SIZE * ZOOM_OVERSCAN * ZOOM_WIDTH * H_WIDTH
  ```
 
 
