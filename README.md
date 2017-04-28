@@ -43,10 +43,10 @@
 
 
 > Reasoning:
-> - `V_WIDTH` and `H_WIDTH` are constant since they are used for cropping
+> - `V_WIDTH` and `H_WIDTH` are constant since they are used for console-individual cropping
 > - `ZOOM_SIZE` and `ZOOM_OVERSCAN` are variable, but used in both calculations, so Y res has to be set first
 > - `ZOOM_WIDTH` then is the independent "knob" that allows to also get an integer X res
 
 - Open questions:
   - Which values for `input-Y-res`/`input-X-res` for which PAL console?
-  - How to verify? - Needs coefficients for `ZOOM_SIZE` etc. to actually calculate it
+  - How to verify? - Needs coefficients for the configured `ZOOM_SIZE`, `ZOOM_WIDTH`, ... values to actually calculate it
