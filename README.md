@@ -50,4 +50,4 @@
 
 - Open questions:
   - Which values for `input-Y-res`/`input-X-res` for which PAL console?
-  - How to verify? - Needs coefficients for the configured `ZOOM_SIZE`, `ZOOM_WIDTH`, ... values to actually calculate it
+  - How to verify? - Needs coefficients for the `ZOOM_SIZE`, `ZOOM_WIDTH`, ... values to actually calculate it
